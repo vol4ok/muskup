@@ -1,6 +1,6 @@
 {
   "name": "muskup",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mustache + coffeekup template engine for express 3.x. Support partials and layout",
   "main": "muskup.js",
   "scripts": {

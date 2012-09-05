@@ -65,7 +65,7 @@ render = (path, opt, fn) ->
         return fn(err) if (err)
         try
           locals = opt.settings.locals or {}
-          locals[k] = v for k,v of opt.locals
+          locals[k] = v for k,v of opt._locals
           tmpl = hogan.compile(str, opt)
           result = tmpl.render(locals, partials)
           if layout
